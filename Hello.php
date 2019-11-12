@@ -5,6 +5,11 @@ class Hello
 {
     public function sayHello()
     {
-        echo 'hello!!!';
+        echo 'hello';
+    }
+
+    public function sayHelloWorld()
+    {
+        echo $this->sayHello().' World!';
     }
 }

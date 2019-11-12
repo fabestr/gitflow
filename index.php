@@ -4,4 +4,4 @@ include 'Hello.php';
 
 $test = new Hello();
 
-$test->sayHello();
+$test->sayHelloWorld();
