@@ -10,7 +10,9 @@ class Hello
 
     public function sayHelloWorld()
     {
-        echo $this->sayHello().' World';
+        $hello = $this->sayHello();
+        echo $hello.' World!';
     }
+
 
 }
